@@ -45,3 +45,12 @@ export interface Property {
   price?: number;
   location?: string;
 }
+
+export interface ReviewSectionProps {
+  propertyId: number | string;
+}
+
+export interface Review {
+  id: number;
+  comment: string;
+}
